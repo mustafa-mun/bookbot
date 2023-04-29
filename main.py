@@ -34,3 +34,4 @@ with open(path) as file:
     # print letter count of the file
     for char in letter_dict:
         print(f"The '{char}' character was found {letter_dict[char]} times")
+    print("--- End report ---")
